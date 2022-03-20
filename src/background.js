@@ -215,6 +215,6 @@ chrome.notifications.onClicked.addListener(function(alarmName) {
   chrome.tabs.create({'url': feeds.events[eventIndex].gcal_url});
 });
 
-chrome.runtime.setUninstallURL('https://manganum.app/calendar');
+chrome.runtime.setUninstallURL('https://get.manganum.app/3WFm');
 
 background.initialize();
